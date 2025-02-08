@@ -9,7 +9,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "illuminate/database": "8.*",
+         "illuminate/database": ">=8.0",
         "illuminate/support": "8.*",
         "intervention/image": "^2.4"
     },
