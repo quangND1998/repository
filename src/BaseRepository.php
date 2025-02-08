@@ -42,7 +42,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
 
     /**
      * Lấy tất cả bản ghi có phân trang
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      * @param array $params
      * @param integer $size Số bản ghi mặc định 25
      * @throws \ReflectionException
@@ -122,7 +122,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
 
     /**
      * Lấy thông tin 1 bản ghi xác định bởi ID
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      *
      * @param  integer $id ID bản ghi
      * @return Eloquent
@@ -150,7 +150,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
 
     /**
      * Lấy thông tin 1 bản ghi đã bị xóa softDelete được xác định bởi ID
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      *
      * @param  integer $id ID bản ghi
      * @return Eloquent
@@ -176,7 +176,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
 
     /**
      * Lưu thông tin 1 bản ghi mới
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      *
      * @param  array $data
      * @return Eloquent
@@ -188,7 +188,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
 
     /**
      * Lưu thông tin nhiều bản ghi
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      * @param  [type]     $datas [description]
      * @return Eloquent [type]            [description]
      */
@@ -217,7 +217,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
 
     /**
      * Cập nhật thông tin 1 bản ghi theo ID
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      *
      * @param  integer $id ID bản ghi
      * @return Eloquent
@@ -238,7 +238,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
      * Xóa 1 bản ghi. Nếu model xác định 1 SoftDeletes
      * thì method này chỉ đưa bản ghi vào trash. Dùng method destroy
      * để xóa hoàn toàn bản ghi.
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      *
      * @param  integer $id ID bản ghi
      * @return bool|null
@@ -251,7 +251,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
 
     /**
      * Xóa hoàn toàn một bản ghi
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      * @param  integer $id ID bản ghi
      * @return bool|null
      */
@@ -264,7 +264,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
 
     /**
      * Khôi phục 1 bản ghi SoftDeletes đã xóa
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      * @param  integer $id ID bản ghi
      * @return bool|null
      */

@@ -1,10 +1,10 @@
 {
-    "name": "leekhang/repository",
+    "name": "quangnd/repository",
     "description": "Repository Pattern",
     "authors": [
         {
-            "name": "Lê Bảo Khang",
-            "email": "lekhang2512@gmail.com"
+            "name": "Nguyen Duc Quang",
+            "email": "quang10031998@email.com"
         }
     ],
     "minimum-stability": "dev",

@@ -34,7 +34,7 @@ class Entity extends Model implements EntityInterface
 
     /**
      * order by query
-     * @author KingDarkness <lekhang2512@gmail.com>
+     * @author  
      * @param  [type]     $query [description]
      * @param  string     $sort  [created_at:-1,id:-1]
      * @return [type]            [description]
